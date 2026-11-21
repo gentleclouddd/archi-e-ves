@@ -1,0 +1,97 @@
+/* GENERAL STYLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Walter+Turncoat&display=swap');	
+
+body {
+	background-color: #042D62;
+	color: #CFE4FF;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	margin: 0;
+	padding: 2rem;
+}
+
+/* HEADER */
+h1 {
+	font-family: 'Walter Turncoat', cursive, sans-serif;
+	font-size: 3.0rem;
+}
+
+h2 {
+	font-family: 'Walter Turncoat', cursive, sans-serif;
+	font-size: 2.2rem;
+}
+
+h3 {
+	font-family: 'Walter Turncoat', cursive, sans-serif;
+	font-size: 1.5rem;
+}
+
+header {
+	background-color: #CFE4FF;
+	color: #042D62;
+	padding: 1.5rem;
+	border: none;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+header p {
+	color: #042D62;
+}
+
+/* SECTION STYLE AND DESIGN */
+main section {
+	background-color: transparent;
+	border: 1px solid #CFE4FF;
+	padding: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.about-container {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.profile-pic {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 2px solid #CFE4FF;
+}
+
+/* PASSION PROJECTS*/
+.embed-container {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.embed-container iframe {
+	max-width: 100%;
+}
+
+a {
+	color: #CFE4FF;
+}
+
+/* MOBILE ACCESSIBILITY AND OTHERS */
+footer {
+	text-align: center;
+	padding: 1.5rem 0;
+	border-top: 1px solid #042D62;
+	margin-top: 2rem;
+	font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+	.about-container {
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	body {
+		padding: 1rem;
+	}
+}
